@@ -86,14 +86,14 @@ export async function createOneCollection({
 
 // create default collection
 export function createDefaultCollection({
-  name = '手动录入',
+  name = 'Manual dataset',
   datasetId,
   parentId,
   teamId,
   tmbId,
   session
 }: {
-  name?: '手动录入' | '手动标注';
+  name?: 'Manual dataset' | '手动标注';
   datasetId: string;
   parentId?: string;
   teamId: string;

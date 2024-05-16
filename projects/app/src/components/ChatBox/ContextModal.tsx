@@ -17,7 +17,7 @@ const ContextModal = ({
       isOpen={true}
       onClose={onClose}
       iconSrc="/imgs/modal/chatHistory.svg"
-      title={`上下文预览(${context.length}条)`}
+      title={`Contextual preview(${context.length}条)`}
       h={['90vh', '80vh']}
       minW={['90vw', '600px']}
       isCentered

@@ -328,7 +328,7 @@ const EditForm = ({
             <Flex alignItems={'center'}>
               <Flex alignItems={'center'} flex={1}>
                 <MyIcon name={'core/app/toolCall'} w={'20px'} />
-                <Box ml={2}>{t('core.app.Tool call')}(实验功能)</Box>
+                <Box ml={2}>{t('core.app.Tool call')}(Lab features)</Box>
                 <MyTooltip label={t('core.app.Tool call tip')}>
                   <QuestionOutlineIcon ml={1} />
                 </MyTooltip>

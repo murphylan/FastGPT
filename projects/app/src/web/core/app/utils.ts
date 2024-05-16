@@ -108,7 +108,7 @@ export function form2AppWorkflow(data: AppSimpleEditFormType): WorkflowType {
       nodes: [
         {
           nodeId: '7BdojPlukIQw',
-          name: 'AI 对话',
+          name: 'AI chat',
           intro: 'AI 大模型对话',
           avatar: '/imgs/workflow/AI.png',
           flowNodeType: 'chatNode',
@@ -241,7 +241,7 @@ export function form2AppWorkflow(data: AppSimpleEditFormType): WorkflowType {
       nodes: [
         {
           nodeId: '7BdojPlukIQw',
-          name: 'AI 对话',
+          name: 'AI chat',
           intro: 'AI 大模型对话',
           avatar: '/imgs/workflow/AI.png',
           flowNodeType: 'chatNode',
@@ -361,7 +361,7 @@ export function form2AppWorkflow(data: AppSimpleEditFormType): WorkflowType {
         },
         {
           nodeId: 'iKBoX2vIzETU',
-          name: '知识库搜索',
+          name: 'Knowledge base search',
           intro: '调用“语义检索”和“全文检索”能力，从“知识库”中查找可能与问题相关的参考内容',
           avatar: '/imgs/workflow/db.png',
           flowNodeType: 'datasetSearchNode',
@@ -480,7 +480,7 @@ export function form2AppWorkflow(data: AppSimpleEditFormType): WorkflowType {
             nodes: [
               {
                 nodeId: datasetNodeId,
-                name: '知识库搜索',
+                name: 'Knowledge base search',
                 intro: '调用“语义检索”和“全文检索”能力，从“知识库”中查找可能与问题相关的参考内容',
                 avatar: '/imgs/workflow/db.png',
                 flowNodeType: 'datasetSearchNode',
